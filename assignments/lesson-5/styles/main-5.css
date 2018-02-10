@@ -1,0 +1,137 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-family: helvetica, georgia, serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    margin: auto;
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+    font-family: helvetica, georgia, serif;
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    background-color: #0793FF;
+    padding: 25px;
+}
+header h1 {
+    font-size: 48px;
+    margin: 10px;
+    text-align: center;
+    color: #FF4900;
+}
+header img {
+    float: left;
+    margin: 0;
+    border: 3px solid #FF4900;
+    border-radius: 15px;
+    
+}
+header .subheading {
+    font-size: 16px;
+    color: #FF4900;
+    text-align: center;
+}
+
+nav {}
+nav button {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav ul li {
+    text-align: center;
+    
+}
+nav ul li a {
+    font-size: 16px;
+    text-align: center;
+    display: block; 
+    color: #0793FF;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li.active a {
+    color: #FFBF00;
+}
+nav ul li a:hover {
+    color: #FF4900;
+}
+
+main {    
+    margin: 10px;
+    padding: 10px;
+}
+main h2{
+    color: #0793FF;
+    text-align: center;
+    background-color: #FFE699;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 30px;     
+}
+
+main h3{
+    color: #0793FF;
+    text-align: center;
+    background-color: #FFE699; 
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 25px;
+}
+main figure { 
+    margin: 0 0 .2rem 2%;
+    width:96%;
+}
+main figure img { 
+    width: 100%; 
+}
+
+section {
+    padding: 16px; 
+}
+
+.forecast {
+    display: none;
+}
+
+p.town-article {
+     border: 1px solid #0793FF;
+    border-radius: 15px;
+}
+
+
+article p.town-article img { 
+    width: 100%;
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+   /* fill the page in the small/phone view */
+    margin: .35em;
+         
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    color: #000000;
+    background-color: #0793FF;
+    font-size: 12px;
+    
+}
+footer aside {
+    text-align: center;
+}
+footer>p {
+    padding-top: 8px;
+    text-align: center;
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */

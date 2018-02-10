@@ -1,0 +1,50 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav button { 
+      display: none; 
+}  /* hamburger button does not need to be shown */
+    
+    nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 2px;
+    border: 1px solid #0793FF;
+    border-radius: 10px;
+}
+    main {
+        clear: both;
+    }
+    
+  section.forecast { 
+    display: block;
+    padding-top: 16px;
+    clear: both;
+    color: #0793FF;
+    width: 95%
+    margin-left: 5%;
+    text-align: center;
+}
+    
+    .forecast table thead tr th {
+        padding: 10px;
+        background-color: #FFBF00;
+        border-radius: 95px;
+      
+}  /* show the 10-day forecast with the medium view and up */
+    
+    p.town-article {
+   
+    padding: 36px;    
+}
+  
+  article p.town-article img {
+      position: relative;
+      width: 62.666%;
+      float: right;
+      margin-left: 32px;
+} 
+    /* responsive images */
+    
+    
+
