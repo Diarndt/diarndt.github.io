@@ -1,0 +1,214 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    flex: 1 1 auto;
+    font-family: helvetica, georgia, serif;
+    font-size: 16px;
+    background-color: #A0D6FF;
+    margin: 0 2% 0 2%;
+    
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+    max-width: 100%;
+    margin: 0 2% 0 2%;
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    background-color: #A0D6FF;
+    padding: 25px;
+}
+header h1 {
+   font-family: 'Berkshire Swash', cursive;
+    font-size: 48px;
+    margin: 0 0 0 5%;
+    text-align: center;
+    color: #5F5F5F;
+}
+header img {
+    float: left;
+    height: 50%;
+    width: auto;
+    margin: 0 0 0 2%;
+    border: 3px solid #0793FF;
+    border-radius: 15px;
+}
+
+header .subheading {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 16px;
+    color: #5F5F5F;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+nav button {}
+
+nav ul {
+    background-color: #A0D6FF;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 16px;
+    color: #0793FF;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li.active a {
+    color: #FFBF00;
+}
+nav ul li a:hover {
+    color: #FF4900;
+}
+
+main {  
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+    margin: 2%;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+main h2{
+    color: #0793FF;
+    text-align: center;
+    background-color: #FFE699;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 40px;
+    font-family: 'Kalam', cursive;
+}
+
+main h3{
+    color: #0793FF;
+    text-align: center;
+    background-color: #FFE699; 
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 25px;
+    font-family: 'Averia Libre', cursive;
+    
+}
+main figure { 
+    width:100%;
+}
+main figure img { 
+     
+}
+
+main figure.sunny {
+    width: 100%;
+    margin: 0 0 2%;
+}
+main figure.sunny img {
+    width: 100%;
+}
+
+main picture {
+    width: 100%;
+    
+}
+main picture img {
+    width: 65%;
+    margin: 0 0 0 2%;
+        
+}
+
+section {
+    margin: 0 0 0 2%; 
+}
+
+div>p {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 1% 2% 1% 2%;
+    width: 90%;
+}
+
+p.town-article {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+    margin: 5%;
+    padding: 20px;
+    float: left;
+    border: 1px solid #0793FF;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    
+}
+.forecast {
+    display: none;
+}
+
+
+article p.town-article img { 
+    width: 50%;
+    margin: 0 0 0 2%;
+    
+       /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+   /* fill the page in the small/phone view */
+   
+         
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    color: #000000;
+    background-color: #A0D6FF;
+    font-size: 12px;
+    
+}
+footer aside {
+    text-align: center;
+}
+footer>p {
+    padding-top: 8px;
+    text-align: center;
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+
+ .gallery  {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: repeat(6, 1fr);
+     grid-gap: 1rem;
+     margin: 0 2% 0 2%;
+     max-width: 90%;
+     
+}
+
+    
+
+
+                   
