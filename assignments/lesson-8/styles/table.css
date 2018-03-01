@@ -1,0 +1,47 @@
+main {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  max-width: 50%;
+  background-color: #e7ffed;
+  font-family: 'Ubuntu',san-serif;
+  box-shadow: 8px 8px 8px #628ca6;
+  margin: 2% 0 0 2%;
+  padding: 1.5rem;
+}
+
+thead {
+  background-color: #7fb9c2;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: .5rem;
+}
+
+table tr:nth-child(even) {
+  background-color:  #e7f0ed; 
+}
+
+table tr:nth-child(6) :nth-child(1) {
+  font-style: italic;
+}
+
+.highlight {
+  color: #fff;
+  background-color: #628ca6;
+}
+
+tfoot {
+  background-color: #7fb9c2;
+  text-align: center;
+  font-size: .75rem;
+}
