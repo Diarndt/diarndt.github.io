@@ -1,47 +1,57 @@
 main {
-  display: flex;
-  flex-flow: column nowrap;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid black;
+    margin: 2% 78% 2% 2%;
+    padding: 1rem;
 }
 
 table {
-  border: 1px solid #ccc;
-  border-collapse: collapse;
-  max-width: 50%;
-  background-color: #e7ffed;
-  font-family: 'Ubuntu',san-serif;
-  box-shadow: 8px 8px 8px #628ca6;
-  margin: 2% 0 0 2%;
-  padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    max-width: 100%;
+    background-color: #e7ffed;
+    font-family: 'ubuntu', san-serif;
+    box-shadow: 8px 8px 8px #628ca6;
+    margin: 2% 0 0 2%;
+    padding: 1.5rem;
 }
 
-thead {
-  background-color: #7fb9c2;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
+th {
+    background-color: #7fb9c2;
+    text-align: center;
+    padding: .5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
-td, th {
-  border: 1px solid #ccc;
-  text-align: center;
-  padding: .5rem;
+td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: .4rem;
 }
 
-table tr:nth-child(even) {
-  background-color:  #e7f0ed; 
+tbody tr:nth-child(even) {
+    background-color:  #e7f0ed; 
 }
 
-table tr:nth-child(6) :nth-child(1) {
-  font-style: italic;
+tbody tr:nth-child(6) :nth-child(1) {
+    font-style: italic;
+}
+
+tbody tr:nth-child(5) :nth-child(3) {
+    background-color: #628ca6;
+    color: #fff;
 }
 
 .highlight {
-  color: #fff;
-  background-color: #628ca6;
+    color: #fff;
+    background-color: #628ca6;
+    font-weight: bold;
 }
 
 tfoot {
-  background-color: #7fb9c2;
-  text-align: center;
-  font-size: .75rem;
+    background-color: #7fb9c2;
+    text-align: center;
+    font-size: .75rem;
 }
