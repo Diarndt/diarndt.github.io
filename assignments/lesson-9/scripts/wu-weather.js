@@ -24,5 +24,11 @@ weatherObject.onload = function() {
     
     document.getElementById('currentVis').innerHTML = weatherInfo.current_observation.visibility_mi;
     
+    document.getElementById('currentCond').innerHTML = weatherInfo.current_observation.weather;
+    
+    document.getElementById('currentFore').innerHTML = weatherInfo.current_observation.forecast_url;
+
+
+    
 }
 
