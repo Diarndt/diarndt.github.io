@@ -1,0 +1,218 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+
+  nav button { 
+      display: none;
+} 
+    /* hamburger button does not need to be shown */
+    
+    nav ul.hide {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        flex: 1 1 auto;
+    }
+    
+    nav ul li {
+        display: inline-flex;
+        flex-wrap: nowrap;
+        margin: 2%;
+        border: 1px solid  #5F5F5F;
+        border-radius: 10px;
+}
+    
+    main {
+        clear: both;
+    }
+    
+  section.forecast { 
+    display: inline-flex;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+    padding: 2%;
+    color:  #0793FF;
+    width: 95%;
+    text-align: center;
+
+}
+    
+    table th, td {
+        padding: 5px;
+        border: 1px solid #0793FF;
+        width: 5%;
+        font-size: 1.2rem;
+      
+        
+        
+      
+}  /* show the 10-day forecast with the medium view and up */
+    
+    p.town-article {
+        display: flex;
+        flex-flow: column nowrap;
+        flex: 1 1 auto;
+        padding: 2%;    
+}
+  
+  article p.town-article img {
+      width: 62.666%;
+      float: right;
+} 
+
+
+    /* grid container */
+    
+ .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 0 2% 0 2%;
+    max-width: 90%; 
+}
+    
+/*form CSS*/
+    
+fieldset {
+    border: 1px solid #0793FF;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1.2rem;
+    border-radius: .6rem;
+}
+
+    input.submitBtn {
+    -webkit-appearance: none;
+    color: #FF4900;
+    border: 1px solid #0793FF;
+    border-radius: 7px;
+    margin: 1rem 20%;
+    font-size: 1.25rem;
+    padding: .8rem;
+    background-color: #A0D6FF;
+    box-shadow: 5px 5px 10px #A0D6FF;
+}
+  
+    section.story {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        margin: 2%;
+    }
+    
+    #wstory {
+        padding: 10px;
+        margin: 2%;
+        width: 96%;
+        border: 1px solid  #5F5F5F;
+        box-shadow: 6px 6px 6px  #5F5F5F;
+    }
+    
+    #mount{
+        margin: 1.5%;
+    }
+    
+    section.franklin {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: flex-end;
+        margin: 0;
+    }
+    
+    
+    #frankinfo {
+        width: 96%;
+        margin: 2%;
+        padding: 10px;
+        border: 1px solid  #5F5F5F;
+        box-shadow: 6px 6px 6px  #5F5F5F;
+        
+    } 
+    
+    #garden {
+        margin: 10%;
+    }
+
+    section.greenville {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }  
+    
+    #greeninfo {
+        width: 96%;
+        margin: 2%;
+        padding: 10px;
+        border: 1px solid  #5F5F5F;
+        box-shadow: 6px 6px 6px  #5F5F5F;
+        
+  } 
+    
+    #bench {
+        margin: 10%;
+        
+    }
+    
+    
+    section.springfield {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: flex-end;
+        margin: 0;
+    }
+    
+    #springinfo {
+        width: 96%;
+        margin: 2%;
+        padding: 6px;
+        border: 1px solid  #5F5F5F;
+        box-shadow: 6px 6px 6px  #5F5F5F;
+        
+    }    
+  
+    #tulip {
+       margin: 10%;
+    }
+    
+    section.story{
+        border: none;
+    }
+    
+    section.franklin {
+        border: none;
+    }
+    
+    section.greenville {
+        border: none;
+    }
+    
+    section.springfield {
+        border: none;
+    }
+    
+    
+    
+    main#towninfo article{
+        display: flex;
+        flex-flow: rows nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        border: 3px solid #5F5F5F;
+        border-radius: 10px;
+     
+}
+    .towndata {
+        display: flex;
+        flex-flow: row nowrap;
+        
+    }
+        
+    
+
+    
+
+     
+     
+}
+}
