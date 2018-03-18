@@ -27,9 +27,9 @@
         flex-flow: row wrap;
     }
     
-    main figure.wild {
+    main figure.aurora {
         max-width: 96%;
-        margin 0;
+        margin: 2%;
 }
    
     
@@ -39,7 +39,7 @@
     margin: 2%;
     color:  #0793FF;
     width: 95%;
-    text-align: center;
+    align-items: center;
 
 }
     
@@ -52,25 +52,27 @@
 }  /* show the 10-day forecast with the medium view and up */
     
     section.summary {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 2%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 2%;
 }
-    
+        
     p.town-article {
         display: flex;
-        flex-flow: column wrap;
-        padding: 2%;    
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+    
 }
   
-  article p.town-article img {
-      display: flex;
-      flex-flow: row wrap;
-      float: right;
-      max-width: 40%;
+  article picture img {
+      align-content: center;
+      width: 40%;
       
 } 
 
@@ -132,107 +134,66 @@ fieldset {
         margin: 1.5%;
     }
     
-    section.franklin {
+    section.towns {
         display: flex;
         flex-flow: row-reverse nowrap;
-        justify-content: flex-end;
-        margin: 0;
-    }
-    
-    
-    #frankinfo {
-        width: 96%;
+        align-items: center;
         margin: 2%;
-        padding: 10px;
-        border: 1px solid  #5F5F5F;
-        box-shadow: 6px 6px 6px  #5F5F5F;
-        
-    } 
-    
-    #garden {
-        margin: 10%;
     }
-
-    section.greenville {
+    
+    section.towns2 {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: flex-end;
-    }  
-    
-    #greeninfo {
-        width: 96%;
+        align-items: center;
         margin: 2%;
-        padding: 10px;
-        border: 1px solid  #5F5F5F;
-        box-shadow: 6px 6px 6px  #5F5F5F;
-        
-  } 
-    
-    #bench {
-        margin: 10%;
-        
-    }
     
     
-    section.springfield {
-        display: flex;
-        flex-flow: row-reverse nowrap;
-        justify-content: flex-end;
-        margin: 0;
-    }
-    
-    #springinfo {
-        width: 96%;
-        margin: 2%;
-        padding: 6px;
-        border: 1px solid  #5F5F5F;
-        box-shadow: 6px 6px 6px  #5F5F5F;
-        
-    }    
+}
   
-    #tulip {
-       margin: 10%;
-    }
-    
     section.story{
         border: none;
     }
     
-    section.franklin {
+    section.towns {
         border: none;
     }
     
-    section.greenville {
+    section.towns2 {
         border: none;
     }
     
-    section.springfield {
-        border: none;
-    }
-    
-    
-    
-    main#towninfo article{
-        display: flex;
-        flex-flow: rows nowrap;
-        justify-content: center;
-        align-items: center;
-        margin: 2%;
-        border: 3px solid #5F5F5F;
-        border-radius: 10px;
-     
-}
     .towndata {
         display: flex;
         flex-flow: row nowrap;
+        margin: 5%;
+        
+        border: 2px solid #5F5F5F;
+        box-shadow: 6px 6px 6px #5F5F5F;
         
     }
-   
-    span#place {
-        font-size: 2rem;
-        margin:0;
-        
-}    
-     
+ 
+    main article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 6px;
+    max-width: 96%;
+    
+}
+       
+    section.summary {
+        max-width: 80%;
+        margin-left: 10%;
+        border: 2px solid #0793FF;
+}
+    
+
+    picture img#w_icon {
+        width: 125px;
+ }
+
+
 
 }

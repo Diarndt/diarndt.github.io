@@ -1,0 +1,88 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+  
+  article p.town-article img { width: 29.333%; }
+  
+
+
+/* grid container */
+
+ .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5rem;
+    margin: 0 2%;
+    max-width: 96%;
+     
+}
+  .gallery figure img:hover{
+    box-shadow: 12px 12px 12px #5F5F5F;
+}
+
+    main {
+       display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+    }
+    
+     main figure.aurora {
+        max-width: 50%;
+        margin: 2%;
+}
+    
+    section.story {
+        flex-flow: row nowrap;
+        width: 98%
+    }
+    
+   
+    section.towns {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 40%;
+        border: 3px solid #5F5F5F;
+        box-shadow: 6px 6px 6px #5F5F5F;
+        margin: 5%;
+    }
+    
+    section.towns2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 40%;
+        margin: 5%;    
+        border: 3px solid #5F5F5F;
+        box-shadow: 6px 6px 6px #5F5F5F;
+    }
+    
+    div.towndata {
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 235px;
+        border: none;
+        box-shadow: none;
+        
+    }
+    
+    section.alltowns {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+     section.summary {
+        max-width: 96%;
+        margin-left: 4%;
+    }
+    
+    div#conditions {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        max-width: 35%;
+        margin-left: 8%;
+        padding: 8px;
+ 
+    }
+    
+}

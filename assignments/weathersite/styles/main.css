@@ -116,7 +116,14 @@ main h3{
 
 
 
-main figure.wild {
+main figure.aurora {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 96%;
+    margin: 2%;
+}
+
+main figure.sky {
     display: flex;
     flex-flow: column nowrap;
     max-width: 96%;
@@ -129,21 +136,6 @@ section.story {
     border: 1px solid #ccc;
     margin: 0;
     padding: .2rem;
-}
-
-main picture img {
-    margin: 0;
-    padding: 2px 
-        
-}
-
-
-div>p {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    margin: 1% 2% 1% 2%;
-    width: 90%;
 }
 
 p.town-article {
@@ -162,7 +154,7 @@ p.town-article {
 }
 
 
-article p.town-article img { 
+article picture img { 
     max-width: 96%;
     margin: 2%;
     
@@ -181,6 +173,7 @@ footer {
 }
 footer aside {
     text-align: center;
+    background-color: #A0D6FF;
 }
 footer>p {
     padding-top: 8px;
@@ -206,7 +199,7 @@ form#inform {
     flex-flow: column nowrap;
     justify-content: center;
     margin: 2%;
-    background-color: ;
+   
 }
 
 h2 {
@@ -217,8 +210,6 @@ h2 {
 fieldset {
     border: 3px solid #0793FF;
     margin: 2%;
-    
-    padding: 1.rem;
     border-radius: .6rem;
 }
 
@@ -288,92 +279,56 @@ div.option {
     text-align: center;
 }
 
-section.franklin {
+
+/*city summary CSS from javascript*/
+section.towns {
     display: flex;
     flex-flow: column nowrap;
-    margin: 2%;
-    border: 1px solid #5F5F5F;
+    align-items: center;
+    margin: 5%;
+    border: 2px solid #5F5F5F;
 }
 
-section>p {
-    margin: 2%;
-    padding: 5px;
-}
-
-section.greenville {
+section.towns2 {
     display: flex;
     flex-flow: column nowrap;
-    margin: 2%;
-    border: 1px solid #5F5F5F;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    border: 2px solid #5F5F5F;
 }
 
-section.springfield {
-    display: flex;
-    flex-flow: column nowrap;
-    margin: 2%;
-    border: 1px solid #5F5F5F;
-}
-
-#garden {
-    margin-right: 95%;
-}
-
-#bench {
-    margin-right: 95%;
-}
-
-#tulip {
-    margin-right: 95%;
-}
-
-main h1 {
-    text-align: center;
-}
 main article {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    
-}
-
-main#towninfo article{
     margin: 2%;
-    padding: 5px;
-    border: 3px solid #5F5F5F;
-    border-radius: 10px;
-     text-align: center;
-}
-
-section.towndata article ul {
-    padding: 0;
-}
- section.towndata article ul li{
-    list-style-type: none;
-     margin: 6px;
-     
-}
-
-/*city summary CSS from javascript*/
-
-section.summary {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0;
+    padding: 6px;
+    max-width: 295px;
+    
 }
 
 
 span#place {
-    font-size: 2rem;
-    margin: 10%;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 2%;
+    
 }
 
-    
+div#conditions {
+    margin: 2%;
+    font-size: 24px;
+}
+
+picture img#w_icon {
+    width: 25%;
+    margin: 2%;
+    float: right;
+}
 
 
 
-    
+
