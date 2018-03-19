@@ -2,7 +2,7 @@ var weatherObject = new XMLHttpRequest();
 
 weatherObject.open('GET', 'http://api.wunderground.com/api/709baeaee109a2b7/conditions/q/OR/Springfield.json', true);
 
-weatherObject.send().replace("http","https");
+weatherObject.send();
 
 weatherObject.onload = function() {
     
@@ -14,7 +14,7 @@ weatherObject.onload = function() {
     
     document.getElementById('currentTemp').innerHTML = weatherInfo.current_observation.temp_f;
     
-    document.getElementById('w_icon').src = weatherInfo.current_observation.icon_url;
+    document.getElementById('w_icon').src = weatherInfo.current_observation.icon_url.replace("http", "https");
     
     document.getElementById('currentRain').innerHTML = weatherInfo.current_observation.precip_1hr_in;
     
