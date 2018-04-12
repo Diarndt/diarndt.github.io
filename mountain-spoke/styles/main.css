@@ -1,0 +1,529 @@
+* { box-sizing: border-box;} 
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    flex: 1 1 auto;
+    font-family: 'Raleway', helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #A0D6FF;
+    margin: 0 2% 0 2%;
+}
+    
+    header, nav, main, footer { 
+    max-width: 96%;
+    margin: 0 2% 0 2%;
+}
+
+header {
+    background-color: #659DBD;
+    margin: 2%;
+    height: 3%;
+
+    
+}
+header h1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+   font-family: 'Raleway', Helvetica;
+    font-size: 40px;
+    margin: 2%;
+    color: #705626;
+    max-width: 100%;
+}
+header figure {
+    float: right;
+    margin: 2%;
+    width: 30%;
+}
+
+header figure img{
+    max-width: 50%
+    
+}
+
+header .subheading {
+    font-family: 'Raleway', cursive;
+    font-size: 25px;
+    color: #FBEEC1;
+    text-align: center;
+    
+}
+
+nav {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    clear: both;
+}
+nav button {}
+
+nav ul {
+    background-color: #314D70;
+    list-style-type: none;
+    margin: 2%;
+    padding: 5px;
+    max-width: 100%;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav ul li {
+    padding: 2px;
+    border: 1px solid #659DBD;
+    width: 98%;
+}
+
+nav ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #FBEEC1;
+    padding: 5px;
+    text-decoration: none;
+    max-width: 100%;
+}
+nav ul li.active a {
+    color: #659DBD;
+}
+nav ul li a:hover {
+    color: #A2CBFF;
+}
+
+main {  
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+    margin: 2%;
+    padding: 15px;
+    
+}
+
+h2{
+    color: #314D70;
+    text-align: center;
+    border-top: 3px solid #FBEEC1;
+    border-bottom: 3px solid #FBEEC1;
+    border-radius: 8px;
+    margin: 2%;
+    font-size: 24px;
+    font-family: 'Raleway', cursive;
+}
+
+
+
+.event {
+    margin: 2%;
+    border: 2px solid #314D70;
+}
+
+div#newEvent {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+
+
+p {
+    color: #314D70;
+    margin: 2%;
+}
+
+#newEvent figure {
+    width: 30%;
+    height: 30%;
+    
+}
+
+figure#cyclist {
+   margin-left: 25%;
+    width: 100%;
+    
+}
+
+.adventure {
+    margin: 2%;
+     border: 2px solid #314D70;
+}
+
+div#advent {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2%;
+} 
+
+.adventure picture {
+    width: 30%;
+    height: 30%;
+}
+
+picture#mbt {
+    margin: 2%;
+    width: 35%;
+    float: left;
+}
+
+#advent>p {
+    max-width: 96%;
+    margin: 2%;
+}
+
+.sales {
+    margin: 2%;
+     border: 2px solid #314D70;    
+}
+
+.sales picture {
+    width: 30%;
+    height: 30%;
+    
+}
+
+picture#mbike {
+    margin: 2%;
+    width: 30%;
+    float: right;
+}
+
+div#sale{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2%;   
+}
+
+#sale p {
+    margin: 2%;
+}
+
+.services {
+    border: 2px solid #314D70;
+    margin: 2%;
+}
+
+.services picture {
+    width: 30%;
+    height: 30%;
+}
+
+picture#maint {
+    margin: 2%;
+    width: 36%;
+    float: left;
+}
+div#service {
+    margin: 2%;
+}
+
+
+div#service p {
+    max-width: 96%;
+    margin: 2%;
+}
+
+.specials {
+    border: 2px solid #314D70;
+    margin: 2%; 
+}
+
+footer {
+    clear: both;
+    width: 96%;
+    margin: 2%;
+    color: #705626;
+    background-color:  #659DBD;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+/*sales css*/
+
+section.accordion img {
+    margin-left: 40%;
+}
+
+/* services css */
+
+#serviceInfo {
+    text-align: center;
+    color: #314D70;
+}
+
+ul li {
+    color: #314D70;
+}
+
+
+
+/*events and table css*/
+
+h4 {
+    text-align: center;
+    color: #705626;
+    border-top: 5px solid #FBEEC1;
+    border-radius: 15%;
+    margin: 2%;
+    padding: 5px;
+}
+
+table th, td {
+        padding: 5px;
+        border: 1px solid #314D70;
+        width: 8%;
+        font-size: .8rem;
+        color: #705626;
+}
+
+#title {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #705626;
+    margin: 2%;
+}
+
+.event p {
+    color: #705626;
+}
+
+picture#cdmap {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+
+
+
+/*adventure css */
+
+section.tour {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2%;
+}
+
+picture#mtour {
+    margin: 0 14%;
+    max-width: 100%;
+    padding: 0 1px 0 0 ;
+    
+    
+}
+
+h3 {
+    color: #314D70;
+    margin: 2%;
+    text-align: center;
+    max-width: 96%;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5 {
+    color: #705626;
+    
+}
+
+.part1 {
+    margin: 2%;
+}
+
+div.part1>p {
+    color: #314D70;
+    font-size: 13px;
+    margin: 2%;
+    
+}
+
+.part2 {
+    margin: 2%
+}
+
+.part2 h4 {
+    border: none;
+}
+
+div.part2>p {
+    color: #314D70;
+    font-size: 13px; 
+    margin: 2%;
+}
+
+
+picture#dtour {
+    margin: 0 14%;
+    max-width: 100%;
+    padding: 0 1px 0 0 ;
+    
+}
+
+div>ul {
+    font-size: 13px;
+    color: #314D70;
+}
+   
+div button {
+   max-width: 30%; 
+}
+
+div#rbtn {
+    background-color: #659DBD;
+    margin: 2%;
+    color: #FBEEC1;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+hr {
+    color: #FBEEC1;
+}
+ 
+/* Contact CSS */
+
+    form#contactUs {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin: 2%;
+        width: 96%;
+}
+
+    fieldset {
+        border: 3px solid #314D70;
+        margin: 2%;
+        border-radius: .6rem;
+        width: 90%;
+}
+
+    legend {
+        font-size: 20px;
+        border: 1px solid #314D70;
+        border-radius: .3rem;
+        box-shadow: 5px 5px 8px #314D70;
+        padding: .2rem; 
+        width: 50%;
+}
+
+    label {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: .25rem;
+        width: 60%;
+}
+
+    label span {
+        display: block;
+        font-size: 1.2rem;
+        padding-top: .5rem;
+        padding-bottom: .2rem;
+        margin-right: .3rem;
+}
+
+    input { 
+        max-width: 60%;
+        border-radius: .4rem;
+        margin: .3rem .5%;
+}
+    input.submitBtn {
+        -webkit-appearance: none;
+        color: #314D70;
+        border: 3px solid #314D70;
+        border-radius: 7px;
+        margin: .5rem 2%;
+        font-size: 1.5rem;
+        background-color: #FBEEC1;
+        box-shadow: 5px 5px 10px #FBEEC1;
+}
+
+    section#ourContact {
+        margin: 2%;
+}
+    #ourContact ul li {
+        list-style-type: none;
+}
+
+
+/* Registraion CSS */
+
+form#reg {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 2% 2% 0 2%;
+    max-width: 96%;
+   
+}
+
+h2 {
+    margin: 0 2% .5% 2%;
+}
+
+
+fieldset {
+    border: 3px solid #314D70;
+    margin: 2%;
+    border-radius: .6rem;
+    width: 90%
+}
+
+label {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: .4rem;
+    width: 60%;
+}
+
+label span {
+    font-size: 1.2rem;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+    margin-right: 1rem;
+}
+
+input {
+    max-width: 85%;
+    border-radius: .4rem;
+    margin: .3rem .5%;
+}
+
+ input.submitBtn {
+        -webkit-appearance: none;
+        color: #314D70;
+        border: 3px solid #314D70;
+        border-radius: 7px;
+        margin: 2%;
+        font-size: 1.3rem;
+        background-color: #FBEEC1;
+        box-shadow: 5px 5px 10px #FBEEC1;
+}
+
+/* Thank You CSS */
+
+p {
+    text-align: center;
+}
+
+
+a.button {
+    text-decoration: none;
+    color: #314D70;
+    border: 3px solid #314D70;
+    border-radius: 7px;
+    margin: 2%;
+    font-size: 1.3rem;
+    background-color: #FBEEC1;
+    box-shadow: 5px 5px 10px #FBEEC1;
+}

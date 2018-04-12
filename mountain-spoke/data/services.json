@@ -1,0 +1,24 @@
+{
+    "servicesName": "Services",
+     "serviceData" : [
+	
+		{"name":		"Standard Tune Up",
+		"detail": [
+            "Adjust brakes and gears headset", "bottom bracket and hub bearing adjusted", "cracks torqued to specifications", "rims trued/straightened", "tires inflated to reccommeded pressure", "chain lubricated."],
+		"price":	"$90.00"},
+        
+	
+		{"name":		"Plus Tune Up",
+         "price":	"$135.00",
+		"detail": [
+            "Full drive train clean and lube", "full frame inspection and clean", "brakes and gears adjusted", "headset bottom brackets and hub bearings adjusted", "cranks torqued to specifications", "rims trued/straightened off bike in truing stand", "tires inflated to recommended pressure."]
+		},
+        
+	
+		{"name":		"Deluxe Tune Up",
+		"detail": [
+            "Complete overhaul of bike", "removal of every part from frame", "bathed and thorough inspection", "Bearings, cables, housing, and bar tape replaced", "Full drive train clean and lube", "Full frame inspection and clean", "Brakes and gear cables and housing replaced", "Headset, bottom bracket and hub bearings replaced", "Bolts and fasteners lubricated and torqued to specifications", "Rims trued/straightened off bike in truing stand", "Tires inflated to recommended pressure, (Parts at additional cost)"],
+		"price":	"$250.00"}
+        
+ ]
+}

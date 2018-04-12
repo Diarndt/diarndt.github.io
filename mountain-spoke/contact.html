@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Mountain Spoke Contact Page</title>
+        <meta name="author" content="Diane Arndt">
+        <meta name="description" content="We would love to hear from you.  Let us know if you hav any questions about any of our services, products, or adventures.">
+  <!-- external style references in the proper cascading order --> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <!-- <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet"> --> <!-- Google API font reference -->
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+        <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+        
+    </head>
+    <body>
+
+        <header>
+            <figure>
+                <img src="images/mblogo3.jpg" alt="Mountain bike tire with a mountain scene and spokes in the center of the tire and the name 'Mountain Spoke' running through the middle" sizes="20vw"
+                 srcset="images/mblogo3-120.jpg 120w,
+                         images/mblogo3-170.jpg 170w">
+            </figure>
+            <h1>The Mountain Spoke</h1><br>
+             <div class="subheading">Where adventure awaits you!</div>
+        </header>
+
+  <!-- site navigation use placeholder references -->
+        <nav>
+            <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+    	           <li><a href="index.html">Home</a></li>
+    	           <li><a href="events.html">Events</a></li>
+    	           <li><a href="adventures.html">Adventures</a></li>
+    	           <li><a href="sales.html">Sales</a></li>
+    	           <li><a href="services.html">Services</a></li>
+    	           <li class="active"><a href="contact.html">Contact</a></li>
+                    
+                </ul>		
+        </nav>
+    
+        <main>
+            <h2>Contact Us</h2>
+            <p>We are here to answer questions you have about any of our product or services.</p>
+            
+            <section id="cInfo">
+            
+            <form action="thanks.html" name="contact" id="contactUs">
+                    <fieldset>
+                        <legend><span id="contactInfo">Contact Information</span></legend>
+                            <label><span>Full Name:</span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
+                            <label><span>Email:</span><input name="email" type="email" value="" placeholder="mountainspoke@gmail.com" required></label>
+                                                    
+                        <label><span>Message:</span></label>
+                            <label>
+                            <textarea rows="10" cols="60" name="message"></textarea></label>
+                    </fieldset>
+                    
+                    <input type="submit" value="Submit" class="submitBtn">
+                
+                </form>
+            <section id="ourContact">
+                <h5>Email:</h5>
+                <ul>
+                    <li>mountainspoke@gmail.com</li>
+                </ul>
+                <h5>Telephone:</h5>
+                <ul>
+                    <li>888-555-1234</li>
+                </ul>
+                <h5>Address:</h5>
+                <ul>
+                    <li>3950 Valley Commons Drive Bozeman, MT</li>
+                </ul>
+                
+            
+            
+            
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.931627756002!2d-111.09290081994902!3d45.67227287920636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523148001428" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+            </section>
+            </section>
+            
+        </main>
+    
+        <footer>
+            <aside>
+                <p>The Mountain Spoke | 3950 Valley Commons Drive | Bozeman MT</p><a href="resources.html">Rescources</a>
+                
+            </aside>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/wayfinding.js"></script>
+
+    </body>
+</html>           
+            

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Mountain Spoke Events Page</title>
+        <meta name="author" content="Diane Arndt">
+        <meta name="description" content="Events that are coming soon along with registration and details.">
+  <!-- external style references in the proper cascading order --> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <!-- <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet"> --> <!-- Google API font reference -->
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+        <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+        
+    </head>
+    <body>
+
+        <header>
+            <figure>
+                <img src="images/mblogo3.jpg" alt="Mountain bike tire with a mountain scene and spokes in the center of the tire and the name 'Mountain Spoke' running through the middle" sizes="20vw"
+                 srcset="images/mblogo3-120.jpg 120w,
+                         images/mblogo3-170.jpg 170w">
+            </figure>
+            <h1>The Mountain Spoke</h1><br>
+            <div class="subheading">Where adventure awaits you!</div>
+        </header>
+
+  <!-- site navigation use placeholder references -->
+        <nav>
+            <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+    	           <li><a href="index.html">Home</a></li>
+    	           <li class="active"><a href="events.html">Events</a></li>
+    	           <li><a href="adventures.html">Adventures</a></li>
+    	           <li><a href="sales.html">Sales</a></li>
+    	           <li><a href="services.html">Services</a></li>
+    	           <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>		
+        </nav>
+    
+        <main>
+            
+             <section class="event">
+            
+              <div id="newE">
+               
+                <h2>Up Coming Event</h2>
+                  
+                    <p id="title">Cycle the Continental Divide</p>
+                    <p>Tour Divide is a ultra-cycling challenge to pedal solo and self-supported the length of Great Divide Mountain Bike Route...as fast as possible(!)</p>
+                    <p>To register click the button below</p>
+                    <p>No registration fees</p>
+                    <p>All travel, food and lodging is at your cost.</p>
+                    <p>Start Date: June 2, 2018</p>
+                  
+                  <a href="register.html" class="button">Register</a>
+                 
+                  
+                </div>  
+                <picture id="cdmap">
+                    <img src="images/divideby3-100.jpg" alt="Map of the Continental Divide ride" sizes="50vw"
+                         srcset="images/divideby3-80.jpg 80w,
+                                 images/divideby3-150.jpg 150w,
+                                images/divideby3-200.jpg 200w">       
+                </picture>
+                 </section>
+            
+            <section id="additionalEvents">
+                <h4>Additional Mountian Biking Events</h4>
+                    <table>
+	                   <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Event Name</th>
+                                <th>Location</th>
+                                <th>Sport</th>
+                            </tr>
+		              </thead>
+                    <tbody>  
+                        <tr>
+                            <td>04/15/18</td>
+                            <td>Coast Hills Classic</td>
+                            <td>Newport, OR</td>
+                            <td>Mountain Biking</td>	
+                        </tr>
+                        <tr>
+                            <td>05/12/18</td>
+                            <td>Stottlemeyer 30/60 Mile Race</td>
+                            <td>Port Gamble, WA</td>
+                            <td>Mountain Biking</td>	
+                        </tr>
+                        <tr>
+                            <td>05/19/18</td>
+                            <td>Spring Thaw Festival</td>
+                            <td>Ashland, OR</td>
+                            <td>Mountain Biking</td>	
+                        </tr>
+                        <tr>
+                            <td>05/27/18</td>
+                            <td>Sisters Stampede</td>
+                            <td>Sisters, OR</td>
+                            <td>Mountain Biking</td>	
+                        </tr>
+		          </tbody>
+                </table>
+            </section>
+                 
+        </main>
+    
+        <footer>
+            <aside>
+                <p>The Mountain Spoke | 3950 Valley Commons Drive | Bozeman MT</p><a href="resources.html">Rescources</a>
+                
+            </aside>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/wayfinding.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,112 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    
+  
+    
+    
+     section.add1 {
+        display: flex;
+        flex-flow: row wrap;
+}
+    
+    section.add2 {
+        display: flex;
+        flex-flow: row nowrap;
+}
+    
+    .event {
+        margin-left: 12%;
+        border: 2px solid #314D70;
+        max-width: 75%;
+        
+}
+    
+    .adventure {
+        margin: 2%;
+        border: 2px solid #314D70;
+        max-width: 50%;
+        height: 30%;
+}
+    
+     .specials {
+        border: 2px solid #314D70;
+        margin: 2%; 
+        width: 15%;
+}
+
+    
+   .sales {
+        margin: 2%;
+        border: 2px solid #314D70;
+        width: 40%;
+        
+}
+    
+    .sales picture {
+        width: 30%;
+        height: 30%;
+}
+
+    picture#mbike {
+        margin: 2%;
+        width: 22%;
+        margin-left: 2%;
+        
+}
+    
+    .services {
+        border: 2px solid #314D70;
+        margin: 2%;
+        width: 40%;
+}
+    
+    picture#maint {
+        margin: 2%;
+        width: 20%;
+        margin-right: 10%;
+}
+    
+    .specials {
+        border: 2px solid #314D70;
+        margin: 2%; 
+        width: 30%;
+        height: 10%;
+}
+    
+    /* Events CSS*/
+    
+    picture#cdmap {
+        margin-right: 5%;
+    }
+    
+    /* Adventures CSS */
+   
+
+    .part2 {
+        margin-left: 5%
+}
+    
+    /*Contact CSS*/
+    
+    section#cInfo {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    section#ourContact {
+        margin-right: 10%
+    }
+    
+    form#contactUs {
+        margin-left: 10%;
+        margin-bottom: 0
+    }
+    
+}
+    
+    
+    
+    
+    
+
+    

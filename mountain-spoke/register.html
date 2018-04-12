@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Mountain Spoke Registration Page</title>
+        <meta name="author" content="Diane Arndt">
+        <meta name="description" content="We invite residence and visitors of the Bozeman, Montana area to enjoy the great outdoors through biking.  We specialize in the bicycle enthusiasts, by providing bicycles, parts, repair services, and touring adventures.">
+  <!-- external style references in the proper cascading order --> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <!-- <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet"> --> <!-- Google API font reference -->
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+        <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+        
+    </head>
+    <body>
+
+        <header>
+            <figure>
+                <img src="images/mblogo3.jpg" alt="Mountain bike tire with a mountain scene and spokes in the center of the tire and the name 'Mountain Spoke' running through the middle" sizes="20vw"
+                 srcset="images/mblogo3-120.jpg 120w,
+                         images/mblogo3-170.jpg 170w">
+            </figure>
+            <h1>The Mountain Spoke</h1><br>
+            <div class="subheading">Where adventure awaits you!</div>
+        </header>
+
+  <!-- site navigation use placeholder references -->
+        <nav>
+            <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+    	           <li><a href="index.html">Home</a></li>
+    	           <li><a href="events.html">Events</a></li>
+    	           <li><a href="adventures.html">Adventures</a></li>
+    	           <li><a href="sales.html">Sales</a></li>
+    	           <li><a href="services.html">Services</a></li>
+    	           <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>		
+        </nav>
+    
+        <main>
+             <h2>Registration</h2>
+            
+                <form action="thankyou.html" name="event" id="reg">
+                    <fieldset>
+                        <legend><span id="pInfo">Personal Information</span></legend>
+                            <label><span>Full Name:</span><input name="fullname" type="text" value="" placeholder="Full Name" pattern="[a-zA-Z -._]{5,99}" required></label>
+                            <label><span>Email:</span><input name="email" type="email" value="" placeholder="weather@gmail.com" required></label>
+                            <label><span>Phone Number:</span><input name="phone" type="tel" value="" placeholder="###-###-####" required></label>
+                            <label><span>State/Country:</span><input name="state" type="text" placeholder="state/country" required></label>
+                            <label><span>Date of Birth:</span><input type="date" name="bday" value=""></label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend><span id="eventInfo">Event Information</span></legend>
+                            <label><span>Event Date:</span><input name="date" type="date"></label>
+                            <label><span>Event Name:</span><input name="eventname" type="text" list="event"></label>
+                            <datalist id="event">
+                                <option value="Continental Divide"></option>
+                                <option value="Coast Hills Classic"></option>
+                                <option value="Stottlemeyer 30/60 Mile Race"></option>
+                                <option value="Spring Thaw Festival"></option>
+                                <option value="Sisters Stam"></option>
+                            </datalist><br>
+                            
+                        <label>Level of Experience </label>
+                            <section>
+                            <input type="radio" name="beginner" value="beginner">Beginner<br>
+                                <input type="radio" name="intermediate" value="intermediate">Intermediate<br>
+                                <input type="radio" name="advanced" value="advanced">Advanced
+                        </section>
+                    </fieldset>
+                    
+                    <fieldset id="addInfo">
+                        <legend><span>Special Accommodations/Comments</span></legend>
+                            <label><span>Comments</span>
+                            <textarea rows="5" cols="60" name="comments"></textarea></label>
+                    </fieldset>
+                    
+                    <input type="submit" value="Submit" class="submitBtn">
+                
+                </form>
+                 
+            
+            
+            </main>
+    
+        <footer>
+            <aside>
+                <p>The Mountain Spoke | 3950 Valley Commons Drive | Bozeman MT</p><a href="resources.html">Rescources</a>
+                
+            </aside>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <span id="currentdate"></span></p>
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/wayfinding.js"></script>
+
+    </body>
+</html>

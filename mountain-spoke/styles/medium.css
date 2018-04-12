@@ -1,0 +1,129 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+    
+     nav button { 
+      display: none;
+} 
+    /* hamburger button does not need to be shown */
+    
+    nav ul.hide {
+        display: inline-flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        flex: 1 1 auto;
+        max-width: 100%;
+    }
+      
+    nav ul li {
+        padding: 8px;
+        border: 1px solid #659DBD;
+        max-width: 90%;
+}
+   
+    
+   
+      
+    section.add1 {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    section.add2 {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    .adventure {
+        margin: 2%;
+        border: 2px solid #314D70;
+        height: 35%;
+}
+
+    div#advent {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 2%;
+        
+}
+    
+    .adventure picture {
+        width: 30%;
+        height: 30%;
+}
+
+    picture#mbt {
+        margin: 2%;
+        width: 55%;
+}
+    
+    .specials {
+        border: 2px solid #314D70;
+        margin: 2%;
+        height: 40%;
+}
+    
+    .specials>p {
+        margin: 2%;
+    }
+
+    
+    .sales {
+        height: 30%;
+        margin: 2%;
+    }
+    
+    .sales picture {
+        width: 20%;
+        height: 20%;
+
+}
+
+    picture#mbike {
+        margin: 2%;
+        width: 50%;
+    
+}
+    
+    .services {
+        height: 30%;
+        margin: 2%;
+    }
+    
+    .services picture {
+    width: 20%;
+    height: 20%;
+    
+}
+
+    picture#maint {
+        margin: 2%;
+        width: 55%;
+        float: right;
+}
+    
+ /* Events CSS*/
+    
+    picture#cdmap {
+        margin-left: 20%;
+    }
+    
+    /* Contact CSS*/
+    
+    
+    input.submitBtn {
+        color:#314D70;
+        border: 3px solid #314D70;
+        border-radius: 7px;
+        margin: 2%;
+        font-size: 1.5rem;
+        padding: .2rem;
+        background-color: #FBEEC1;
+        box-shadow: 5px 5px 10px #FBEEC1;
+        max-width: 20%;
+}
+    
+    section#ourContact {
+        margin: 0 2%;
+    }
+    
+}
